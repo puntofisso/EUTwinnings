@@ -52,6 +52,7 @@ create table nuts (code text PRIMARY KEY, level text, name text, nuts0 text, nut
 ```
 ### Import Relations
 Import also all nuts relations (as `basicdata.tsv` only contains NUTS3!):
+
 ```
 "DE113|Esslingen|3|DE|DE1|DE11|DE113"
 create table relations(code text PRIMARY KEY, name text, level text, nuts0 text, nuts1 text, nuts2 text, nuts3 text);
@@ -60,7 +61,9 @@ create table relations(code text PRIMARY KEY, name text, level text, nuts0 text,
 ```
 
 ### Create the similarity table
-```CREATE TABLE similarity (
+
+```
+CREATE TABLE similarity (
   code1 text,
   code2 text,
   similarity real,
