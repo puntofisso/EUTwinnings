@@ -1,14 +1,16 @@
 # General
-This project was created for the EU Datathon 2020. It is an MVP. The project collects data from Eurostat and calculates a similarity matrix between all the NUTS3 regions of Europe. For more information on NUTS3 and to explore the database, see the [Eurostat](https://ec.europa.eu/eurostat/data/database) website. This README explains how to regenerate the data and set up the website.
+This project was created for the EU Datathon 2020. It is an MVP, currently online at [eu-twinnings.site](http://eu-twinnings.site). The project collects data from Eurostat and calculates a similarity matrix between all the NUTS3 regions of Europe. For more information on NUTS3 and to explore the database, see the [Eurostat](https://ec.europa.eu/eurostat/data/database) website. This README explains how to regenerate the data and set up the website.
 
 The NUTS area are roughly as follows:
 
-NUTS0 - National
-NUTS1 - Macroregions (e.g. North-East of Italy)
-NUTS2 - Regions
-NUTS3 - Province/Local Authority/Metropolitan area (e.g. Berlin, BAT provincia)
+- NUTS0 - National
+- NUTS1 - Macroregions (e.g. North-East of Italy)
+- NUTS2 - Regions
+- NUTS3 - Province/Local Authority/Metropolitan area (e.g. Berlin, BAT provincia)
 
 The maps were generated using the QGIS Atlas function. The shapefiles can be found on the [EU Website](https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/nuts).
+
+![Image](https://github.com/puntofisso/EUTwinnings/blob/master/2.png)
 
 # Related information
 Using Eurostat data with D3 [http://geoexamples.blogspot.com/2013/10/using-eurostats-data-with-d3js.html]
