@@ -1,3 +1,3 @@
 <?php
-  $method = "sqlite"; // or "mysql" or "sqlite"
+  $method = "mysql"; // or "mysql" or "sqlite"
 ?>
